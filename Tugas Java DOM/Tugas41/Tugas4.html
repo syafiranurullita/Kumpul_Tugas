@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p>Pilih Warna Background</p>
+
+  <select id="mySelect" onchange="myFunction()">
+    <option value="red">Merah</option>
+    <option value="blue">Biru</option>
+    <option value="yellow">Kuning</option>
+    <option value="white">Putih</option>
+    <!-- <button onclick="ubah()">Ubah</button> -->
+
+    <p>Saat kamu memilih warna, Background akan berubah</p>
+
+  </select>
+  <p id="clicked"></p>
+  <script type="text/javascript">
+
+      function myFunction(){
+    document.getElementById("clicked").innerHTML = "Saat kamu memilih warna, Background akan berubah: ";
+    if(mySelect.value == "red") document.body.style.backgroundColor = "red";
+    if(mySelect.value == "blue") document.body.style.backgroundColor = "blue";
+    if(mySelect.value == "yellow") document.body.style.backgroundColor = "yellow";
+    if(mySelect.value == "white") document.body.style.backgroundColor = "white";
+}
+  </script>
+
+  </body>
+  </html>

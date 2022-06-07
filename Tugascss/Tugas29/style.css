@@ -1,0 +1,30 @@
+.judul{
+  text-transform: capitalize;
+  color: #36D7B7;
+}
+
+.lbl{
+  color: black;
+}
+/* .seluruh{
+  background-color: #d3d3d3;
+} */
+
+.login {
+        margin: 20px auto;
+        width: 600px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: white;
+    }
+    input[type=text], input[type=password] {
+        margin: 5px auto;
+        width: 100%;
+        padding: 10px;
+    }
+    .bc{
+      color: blue;
+    }
+    .bott{
+      margin: 20px;
+    }

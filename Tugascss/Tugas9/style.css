@@ -1,0 +1,33 @@
+body{
+  background-image: url("slider2.jpg");
+  background-size: cover;
+}
+  .satu{
+    width: 700px;
+    height: 750px;
+    text-align: right;
+    color: black;
+    background-color: white;
+    float: right;
+
+  }
+.p1{
+  position: static;
+  float: none;
+  z-index: none;
+}
+.p2{
+  position: static;
+  float: none;
+  z-index: none;
+}
+.p3{
+  position: static;
+  float: none;
+  z-index: none;
+}
+.p4{
+  position: static;
+  float: none;
+  z-index: none;
+}

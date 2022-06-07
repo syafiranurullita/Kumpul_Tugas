@@ -1,0 +1,13 @@
+.judul {
+  font-family: "Times New Roman", Helvetica, sans-serif;
+  text-decoration: underline;
+}
+[type="button"]{
+  color: #DAA520;
+  font-family: arial;
+  padding: 6px 20px;
+  font-size: 20px;
+}
+.register {
+  placeholder="Nama depan" !important;
+}

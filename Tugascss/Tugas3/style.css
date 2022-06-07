@@ -1,0 +1,14 @@
+.highlight{
+  background-color: orange;
+}
+.p_dua{
+  background-color: blue;
+}
+.p_tiga{
+  border-style: outset;
+}
+.p_empat{
+  background-color: gray;
+}
+h1.judul{
+  text-transform: capitalize;
